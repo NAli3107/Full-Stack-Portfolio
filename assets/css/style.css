@@ -77,6 +77,9 @@ html{
     padding: 20px 20px;
 }
 
+#work-section h3{
+    font-weight: bold;
+}
 .headings{
     text-align: center;
     font-size: 40px;
@@ -95,7 +98,13 @@ html{
 .card{
     color: black;
     font-family: "Old Standard TT", serif;
+    font-weight: bold;
     margin-top: 50px;
+}
+.card-title{
+    font-family: 'Pacifico', cursive;
+    padding-bottom: 15px;
+    text-decoration: underline;
 }
 .card-img-top {
     padding-top: 10px;
