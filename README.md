@@ -31,12 +31,12 @@ Technologies Used:
 
 Screenshot of Deployed Application:
 
-![Application-Screenshot](https://user-images.githubusercontent.com/94486765/154816757-a451149f-897b-4baf-9af5-7b34053d969a.png)
+![Application-Screenshot](./assets/images/Portfolio-Screenshot.png)
 
 
 
 Links:
 
-Github Repository: https://github.com/NAli3107/Updated-portfolio
+Github Repository: https://github.com/NAli3107/Full-Stack-Portfolio
 
-Deployed Application: https://nali3107.github.io/Updated-portfolio/
+Deployed Application: https://nali3107.github.io/Full-Stack-Portfolio/
