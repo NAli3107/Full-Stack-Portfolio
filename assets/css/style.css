@@ -1,135 +1,157 @@
 body {
-    background-color: whitesmoke;
-    margin: 0rem;
-    padding: 0rem;
-    width: 100%;
-    height: 100%
+  background-color: whitesmoke;
+  margin: 0rem;
+  padding: 0rem;
+  width: 100%;
+  height: 100%;
 }
-html{
-    scroll-behavior:smooth;    
-}
-
-#header{
-    background-color: black;
-    box-shadow: 2px 2px 20px #036d64; 
-    padding: 10px;
-    font-family: 'Pacifico', cursive;
+html {
+  scroll-behavior: smooth;
 }
 
-#welcome{
-    color: white;
-    font-size: larger;
-
+#header {
+  background-color: black;
+  box-shadow: 2px 2px 20px #036d64;
+  padding: 10px;
+  font-family: "Pacifico", cursive;
 }
 
-.nav-item a:hover{
-    background-color: #036d64;
-    color:#3c6e71ff;
-    box-shadow: white;
-    border-radius: 5px;
-    padding: 10px;
+#welcome {
+  color: white;
+  font-size: larger;
 }
 
-#home{
-    padding-top: 40px;
+.nav-item a:hover {
+  background-color: #036d64;
+  color: #3c6e71ff;
+  box-shadow: white;
+  border-radius: 5px;
+  padding: 10px;
 }
 
-#about-me{
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 40px;
-    padding-bottom: 20px;
+#home {
+  padding-top: 40px;
 }
 
-#about-me h1{
-    font-weight: bolder;
-    font-family: 'Pacifico', cursive;
+#about-me {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
 }
 
-#about-me p{
-    font-size: 1.6rem;
-    font-family: "Old Standard TT", serif;
+#about-me h1 {
+  font-weight: bolder;
+  font-family: "Pacifico", cursive;
 }
 
-#avatar img{
-    height: 350px;
-    width: 275px;
-    margin-top: -20px;
-    border-radius:10rem
+#about-me p {
+  font-size: 1.6rem;
+  font-family: "Old Standard TT", serif;
 }
 
-.intro{
-    background-color:#3c6e71ff;
-    border-radius: 20px;
-    box-shadow: black 7px 10px 10px 0px;
-    padding: 20px;
-    color: rgb(229, 226, 226)
+#avatar img {
+  height: 350px;
+  width: 275px;
+  margin-top: -20px;
+  border-radius: 10rem;
 }
 
-#intro-title{
-    text-decoration: underline;
-    color: black;
+.intro {
+  background-color: #3c6e71ff;
+  border-radius: 20px;
+  box-shadow: black 7px 10px 10px 0px;
+  padding: 20px;
+  color: rgb(229, 226, 226);
 }
 
-#work-section{
-    background-color:black;
-    color: white;
-    padding: 20px 20px;
+#intro-title {
+  text-decoration: underline;
+  color: black;
 }
 
-#work-section h3{
-    font-weight: bold;
-}
-.headings{
-    text-align: center;
-    font-size: 40px;
-    text-decoration: underline;
-    font-weight: bold;
-    font-family: 'Pacifico', cursive;
+#work-section {
+  background-color: black;
+  color: white;
+  padding: 20px 20px;
 }
 
-.title h3{
-    font-family: "Old Standard TT", serif;
-    text-align: center;
-    line-height: 2.5rem;
-    font-size: 1.4rem;
+#work-section h3 {
+  font-weight: bold;
+}
+.headings {
+  text-align: center;
+  font-size: 40px;
+  text-decoration: underline;
+  font-weight: bold;
+  font-family: "Pacifico", cursive;
 }
 
-.card{
-    color: black;
-    font-family: "Old Standard TT", serif;
-    font-weight: bold;
-    margin-top: 50px;
+.title h2 {
+  font-family: "Old Standard TT", serif;
+  text-align: center;
+  line-height: 2.5rem;
+  font-size: 1.4rem;
 }
-.card-title{
-    font-family: 'Pacifico', cursive;
-    padding-bottom: 15px;
-    text-decoration: underline;
+
+.card {
+  color: black;
+  font-family: "Old Standard TT", serif;
+  font-weight: bold;
+  margin-top: 50px;
+  height: 90%
+}
+.card-title {
+  font-family: "Pacifico", cursive;
+  padding-bottom: 15px;
+  text-decoration: underline;
+  text-align: center;
 }
 .card-img-top {
-    padding-top: 10px;
-    object-fit: cover;
+  padding-top: 10px;
+  object-fit: cover;
 }
-.card-text{
-    height: 50px;
-}
-
-#github{
-    display: flex;
-    justify-content: flex-end;
+.card-text {
+  height: 50px;
+  text-align: center;
 }
 
-footer{
-    display: flex;
-    justify-content: center;
-    font-family: 'Pacifico', cursive;
-    color: white;
-    margin-top: 80px;
-    padding: 5px;
-    background-color: black;
-    box-shadow: 2px -2px 20px #036d64;
+#github {
+  display: flex;
+  justify-content: flex-end;
 }
 
-#icon{
-    padding-left: 30px;
+footer {
+  display: flex;
+  justify-content: center;
+  font-family: "Pacifico", cursive;
+  color: white;
+  margin-top: 80px;
+  padding: 5px;
+  background-color: black;
+  box-shadow: 2px -2px 20px #036d64;
+}
+
+#icon {
+  padding-left: 30px;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 20px #c6f3ef;
+  padding: 2px;
+  transition: 1s all;
+}
+
+@media only screen and (min-width: 768px) {
+  .card-text {
+    height: fit-content;
+    width: fit-content;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .card-text {
+    height: fit-content;
+    width: fit-content;
+  }
 }
