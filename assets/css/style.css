@@ -31,6 +31,7 @@ html {
 
 #home {
   padding-top: 40px;
+  
 }
 
 #about-me {
@@ -53,13 +54,14 @@ html {
 #avatar img {
   height: 350px;
   width: 275px;
-  margin-top: -20px;
   border-radius: 10rem;
+  display: flex;
 }
 
 .intro {
   background-color: #3c6e71ff;
-  border-radius: 20px;
+  /* border-radius: 20px; */
+  width: 100%;
   box-shadow: black 7px 10px 10px 0px;
   padding: 20px;
   color: rgb(229, 226, 226);
@@ -153,5 +155,11 @@ footer {
   .card-text {
     height: fit-content;
     width: fit-content;
+  }
+}
+
+@media only screen and (max-width: 535px) {
+  #avatar img{
+    margin-left: 50px;
   }
 }
